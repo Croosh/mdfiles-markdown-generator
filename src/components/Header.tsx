@@ -7,7 +7,7 @@ function Header(props) {
     <>
       {props.isGenerator ? (
         <>
-          <header className=" w-screen flex justify-between  py-6 px-16 items-center">
+          <header className=" w-screen flex justify-between  py-6 px-16 items-center max-md:px-8 max-sm:px-4">
             <Button
               variant={"ghost"}
               className="text-xl font-bold font-['Ubuntu_Mono'] text-slate-950/80 antialiased hover:bg-slate-400/20"
