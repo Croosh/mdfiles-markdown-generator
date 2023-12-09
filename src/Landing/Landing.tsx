@@ -1,10 +1,15 @@
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Landing() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>The Best Markdown Generator - mdfiles</title>
+      </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-teal-100 to-pink-200 overflow-x-hidden max-md:justify-center max-md:items-center">
         <Header isHomepage={true} />
         <section className=" min-h-screen flex justify-center items-center flex-col gap-8">
