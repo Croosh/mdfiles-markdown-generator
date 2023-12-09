@@ -6,11 +6,10 @@ export default function Cheatsheet() {
   return (
     <>
       <div className="flex h-screen justify-center items-center font-bold font-['Inter'] text-6xl">
-        <div>
+        <div className="flex justify-center items-center flex-col text-center">
           <h1>Comming Soon.</h1>
           <div className="h-5"></div>
           <Button
-            className="self-center"
             onClick={() => {
               navigate(-1);
             }}
