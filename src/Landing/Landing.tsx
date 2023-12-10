@@ -27,6 +27,15 @@ function Landing() {
             </Link>
           </div>
         </section>
+        <div className="absolute flex w-screen justify-center items-center bottom-4">
+          <Link
+            className=" font-['Ubuntu_Mono']  underline font-semibold "
+            target="_blank"
+            to={"https://github.com/croosh"}
+          >
+            by Umar A.
+          </Link>
+        </div>
       </div>
     </>
   );
