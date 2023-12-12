@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Cog } from "lucide-react";
 
 function Landing() {
   return (
@@ -19,7 +19,10 @@ function Landing() {
           </h1>
           <div className="flex gap-4">
             <Link to={"./generator"}>
-              <Button>Generator</Button>
+              <Button className=" flex gap-3">
+                Generator
+                <Cog strokeWidth={"2"} size={"24"} />
+              </Button>
             </Link>
             <Link to={"./cheatsheet"}>
               <Button className="border-2 border-slate-900" variant={"outline"}>
