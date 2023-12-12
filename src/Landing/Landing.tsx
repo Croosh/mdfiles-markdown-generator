@@ -30,7 +30,7 @@ function Landing() {
         </section>
         <div className="absolute flex w-screen justify-center items-center bottom-4">
           <Link
-            className=" font-['Ubuntu_Mono']  underline font-semibold "
+            className=" font-['Ubuntu_Mono']  underline font-semibold flex gap-3 hover:scale-105 antialiased transition-all"
             target="_blank"
             to={"https://github.com/croosh"}
           >
