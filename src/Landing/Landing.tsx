@@ -19,9 +19,13 @@ function Landing() {
           </h1>
           <div className="flex gap-4">
             <Link to={"./generator"}>
-              <Button className=" flex gap-3">
+              <Button className=" flex justify-between group ">
                 Generator
-                <Cog strokeWidth={"2"} size={"24"} />
+                <Cog
+                  strokeWidth={"2"}
+                  size={"24"}
+                  className=" opacity-0 -mx-3 group-hover:opacity-100 transition-all group-hover:mx-1 group-hover:rotate-[270deg]"
+                />
               </Button>
             </Link>
             <Link to={"./cheatsheet"}>
