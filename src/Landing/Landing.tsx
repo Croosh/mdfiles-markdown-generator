@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { Sparkles } from "lucide-react";
 
 function Landing() {
   return (
@@ -33,6 +34,7 @@ function Landing() {
             target="_blank"
             to={"https://github.com/croosh"}
           >
+            <Sparkles />
             by Umar A.
           </Link>
         </div>
