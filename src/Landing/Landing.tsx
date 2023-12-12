@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Sparkles, Cog } from "lucide-react";
+import { Sparkles, Cog, BookText } from "lucide-react";
 
 function Landing() {
   return (
@@ -29,8 +29,12 @@ function Landing() {
               </Button>
             </Link>
             <Link to={"./cheatsheet"}>
-              <Button className="border-2 border-slate-900" variant={"outline"}>
+              <Button
+                className="border-2 border-slate-900 flex justify-between group"
+                variant={"outline"}
+              >
                 Cheatsheet
+                <BookText className=" opacity-0 -mx-3  group-hover:opacity-100 transition-all group-hover:mx-1" />
               </Button>
             </Link>
           </div>
