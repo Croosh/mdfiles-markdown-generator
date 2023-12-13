@@ -16,7 +16,7 @@ function Header(props) {
             </Link>
             <Link to={"/cheatsheet"}>
               <Button
-                className=" font-['Inter'] font-semibold text-md bg-none hover:bg-slate-400/20"
+                className="font-['Inter'] font-bold text-md bg-none hover:bg-slate-400/20"
                 variant={"ghost"}
                 size={"sm"}
               >

@@ -19,7 +19,7 @@ function Landing() {
           </h1>
           <div className="flex gap-4">
             <Link to={"./generator"}>
-              <Button className=" flex justify-between group ">
+              <Button className="font-['Inter'] font-semibold flex justify-between group ">
                 Generator
                 <Cog
                   strokeWidth={"2"}
@@ -30,7 +30,7 @@ function Landing() {
             </Link>
             <Link to={"./cheatsheet"}>
               <Button
-                className="border-2 border-slate-900 flex justify-between group"
+                className="font-['Inter'] font-semibold border-2 border-slate-900 flex justify-between group"
                 variant={"outline"}
               >
                 Cheatsheet
